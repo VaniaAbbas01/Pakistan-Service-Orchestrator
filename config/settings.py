@@ -16,7 +16,7 @@ PROMPTS_DIR    = BASE_DIR / "prompts"
 PROVIDERS_FILE = DATA_DIR / "providers.json"
 
 # ── Google Gemini / Antigravity ───────────────────────────────────────────────
-GEMINI_API_KEY   = os.getenv("GEMINI_API_KEY", "AIzaSyAsKduxVHl1RzRYQKoh0eZxZrEUqlZ2soI")
+GEMINI_API_KEY   = os.getenv("GEMINI_API_KEY", "")
 GEMINI_MODEL     = "gemini-2.0-flash"          # swap to gemini-1.5-pro for deeper reasoning
 MAX_OUTPUT_TOKENS = 2048
 TEMPERATURE       = 0.2                        # low temp → deterministic ranking
